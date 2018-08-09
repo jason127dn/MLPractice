@@ -4,12 +4,14 @@ import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.axes import Axes
 
+
+plt.figure()
 #控座標軸
+
 x = np.linspace(-3, 3, 50)
 y1 = 2*x + 1
 y2 = x**2
 
-plt.figure()
 plt.subplot(2, 3, 1)
 plt.plot(x, y2)
 plt.plot(x, y1, color='red', linewidth=1.0, linestyle='--')
@@ -26,7 +28,7 @@ plt.xticks(new_ticks)
 
 plt.yticks([-2, -1.8, -1, 1.22, 3],[r'$really\ bad$', r'$bad$', r'$normal$', r'$good$', r'$really\ good$'])
 
-ax: Union[Axes, Any] = plt.gca()
+ax = plt.gca()
 ax.spines['right'].set_color('none')
 ax.spines['top'].set_color('none')
 ax.xaxis.set_ticks_position('bottom')
@@ -35,12 +37,14 @@ ax.yaxis.set_ticks_position('left')
 ax.spines['left'].set_position(('data',0))
 
 #散布圖
+plt.subplot(2, 3, 2)
+
 n = 1024    # data size
 X = np.random.normal(0, 1, n) # 每一个点的X值
 Y = np.random.normal(0, 1, n) # 每一个点的Y值
 T = np.arctan2(Y,X) # for color value
-plt.subplot(2, 3, 2)
-plt.scatter(X, Y, s=75, c=T, alpha=.5)
+
+plt.scatter(X, Y, s=75, c=T, alpha=.5)# s:size c:color
 
 plt.xlim(-1.5, 1.5)
 plt.xticks(())  # ignore xticks
@@ -49,13 +53,12 @@ plt.yticks(())  # ignore yticks
 
 
 #柱狀圖
+plt.subplot(2, 3, 3)
+
 n = 12
 X = np.arange(n)
 Y1 = (1 - X / float(n)) * np.random.uniform(0.5, 1.0, n)
 Y2 = (1 - X / float(n)) * np.random.uniform(0.5, 1.0, n)
-plt.subplot(2, 3, 3)
-plt.bar(X, +Y1)
-plt.bar(X, -Y2)
 
 plt.xlim(-.5, n)
 plt.xticks(())
@@ -75,6 +78,8 @@ for x, y in zip(X, Y2):
 
 
 #等高線圖
+plt.subplot(2, 3, 4)
+
 def f(x,y):
     # the height function
     return (1 - x / 2 + x**5 + y**3) * np.exp(-x**2 -y**2)
@@ -86,15 +91,8 @@ X,Y = np.meshgrid(x, y)
 
 # use plt.contourf to filling contours
 # X, Y and value for (X,Y) point
-plt.subplot(2, 3, 4)
-plt.contourf(X, Y, f(X, Y), 8, alpha=.75, cmap=plt.cm.hot)
-# use plt.contourf to filling contours
-# X, Y and value for (X,Y) point
-plt.contourf(X, Y, f(X, Y), 8, alpha=.75, cmap=plt.cm.hot)
-
-# use plt.contourf to filling contours
-# X, Y and value for (X,Y) point
-plt.contourf(X, Y, f(X, Y), 8, alpha=.75, cmap=plt.cm.hot)
+#contourf畫顏色 contour畫線
+plt.contourf(X, Y, f(X, Y), 8, alpha=.75, cmap=plt.cm.cool)
 # use plt.contour to add contour lines
 C = plt.contour(X, Y, f(X, Y), 8, colors='black', linewidth=.5)
 plt.clabel(C, inline=True, fontsize=10)

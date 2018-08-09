@@ -27,24 +27,25 @@ plt.show()
 from mpl_toolkits.mplot3d import Axes3D
 
 
-def data(i, z, line):
-    z=np.sin(x+y+i)
+def data(i):
+
+    z=np.sin(np.sqrt(x**2+y**2)+i/10.)
     ax.clear()
-    line = ax.plot_surface(x,y,z,color="b")
+    line = ax.plot_surface(x,y,z,cmap=plt.get_cmap('rainbow'))
     return line,
 
 
-n = 2.*np.pi
+n = 4.*np.pi
 fig = plt.figure()
 ax = fig.add_subplot(111,projection='3d')
 
-x = np.linspace(0, n, 100)
-y = np.linspace(0, n, 100)
+x = np.linspace(-n, n, 100)
+y = np.linspace(-n, n, 100)
 x, y = np.meshgrid(x, y)
 z=np.sin(x-y)
 line = ax.plot_surface(x, y, z, color='b')
 
-ani = animation.FuncAnimation(fig, data, fargs=(z, line), interval=15, blit=False)
+ani = animation.FuncAnimation(fig=fig, func=data, frames=100, interval=20, blit=False)
 
-#ani.save('basic_animation.mp4', fps=30, extra_args=['-vcodec', 'libx264'])
+ani.save('basic_animation.mp4', fps=30, extra_args=['-vcodec', 'libx264'])
 plt.show()
