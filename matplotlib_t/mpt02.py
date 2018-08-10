@@ -3,7 +3,7 @@ from typing import Any, Union
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.axes import Axes
-
+import matplotlib.cm as cm
 
 plt.figure()
 #控座標軸

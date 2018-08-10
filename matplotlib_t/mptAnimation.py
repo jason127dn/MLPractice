@@ -29,14 +29,17 @@ from mpl_toolkits.mplot3d import Axes3D
 
 def data(i):
 
-    z=np.sin(np.sqrt(x**2+y**2)+i/10.)
+    z=np.sin(np.sqrt(x**2+y**2)+i/10.)/np.sqrt(x**2+y**2)
     ax.clear()
+    ax.set_zlim(-3, 3)
     line = ax.plot_surface(x,y,z,cmap=plt.get_cmap('rainbow'))
+
     return line,
 
 
 n = 4.*np.pi
 fig = plt.figure()
+
 ax = fig.add_subplot(111,projection='3d')
 
 x = np.linspace(-n, n, 100)
