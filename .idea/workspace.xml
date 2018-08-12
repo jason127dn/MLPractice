@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61f2116e-f03e-4880-956e-0fb9daeea4f9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/keras_t/keras01.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras_t/keras01" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,20 +25,22 @@
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="keras01" value="1" />
           <entry key="png" value="1" />
-          <entry key="py" value="71" />
+          <entry key="py" value="72" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="1" />
-          <entry key="Python" value="71" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="72" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -103,8 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/matplotlib_t/example/user_interfaces/fourier_demo_wx_sgskip.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="171">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="e#58#76#0" expanded="true" />
               </folding>
@@ -115,17 +119,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/matplotlib_t/example/event_handling/keypress_demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+            <state relative-caret-position="266">
+              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/matplotlib_t/example/images_contours_and_fields/affine_image.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/matplotlib_t/example/images_contours_and_fields/affine_image.py">
+        <entry file="file://$PROJECT_DIR$/keras_t/keras01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="418">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -162,6 +178,8 @@
         <option value="$PROJECT_DIR$/matplotlib_t/mpt01.py" />
         <option value="$PROJECT_DIR$/matplotlib_t/example/user_interfaces/embedding_in_gtk2_sgskip.py" />
         <option value="$PROJECT_DIR$/matplotlib_t/example/widgets/span_selector.py" />
+        <option value="$PROJECT_DIR$/keras_t/keras01" />
+        <option value="$PROJECT_DIR$/keras_t/keras01.py" />
       </list>
     </option>
   </component>
@@ -199,6 +217,11 @@
             <path>
               <item name="MLPractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="MLPractice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MLPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MLPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="keras_t" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MLPractice" type="b2602c69:ProjectViewProjectNode" />
@@ -287,7 +310,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.image_demo">
+  <component name="RunManager" selected="Python.keras01">
     <configuration name="affine_image" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MLpractice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -322,27 +345,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/matplotlib_t/example/images_contours_and_fields/contour_corner_mask.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="embedding_in_wx2_sgskip" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MLpractice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/matplotlib_t/example/user_interfaces" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/matplotlib_t/example/user_interfaces/embedding_in_wx2_sgskip.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -393,20 +395,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="keras01" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MLpractice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/keras_t" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keras_t/keras01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.embedding_in_wx2_sgskip" />
       <item itemvalue="Python.fourier_demo_wx_sgskip" />
       <item itemvalue="Python.affine_image" />
       <item itemvalue="Python.contour_corner_mask" />
       <item itemvalue="Python.image_demo" />
+      <item itemvalue="Python.keras01" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.keras01" />
         <item itemvalue="Python.image_demo" />
         <item itemvalue="Python.contour_corner_mask" />
         <item itemvalue="Python.affine_image" />
         <item itemvalue="Python.fourier_demo_wx_sgskip" />
-        <item itemvalue="Python.embedding_in_wx2_sgskip" />
       </list>
     </recent_temporary>
   </component>
@@ -462,22 +485,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="230" y="27" width="1680" height="1053" extended-state="4" />
+    <frame x="230" y="27" width="1670" height="1053" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28183463" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28172433" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4985003" weight="0.32972974" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7899819" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7893139" visible="true" weight="0.32827735" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49945354" weight="0.32972974" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4989071" weight="0.32972974" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49670067" weight="0.32972974" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.2100181" side_tool="true" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.2106861" side_tool="true" visible="true" weight="0.32827735" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.77486336" weight="0.32972974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -495,20 +518,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="more matplotlib tutorial code" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/matplotlib_t/example/animation/animate_decay.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/matplotlib_t/example/animation/animated_histogram.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/matplotlib_t/example/animation/animation_demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -820,8 +829,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/matplotlib_t/example/user_interfaces/fourier_demo_wx_sgskip.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="171">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="e#58#76#0" expanded="true" />
           </folding>
@@ -830,15 +839,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/matplotlib_t/example/event_handling/keypress_demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        <state relative-caret-position="266">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/matplotlib_t/example/images_contours_and_fields/affine_image.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras_t/keras01">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras_t/keras01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
