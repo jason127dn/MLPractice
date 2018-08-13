@@ -1,7 +1,7 @@
 import numpy as np
 from keras.models import Sequential
 from keras.datasets import mnist
-from keras.layers import Dense, Dropout,Activation, Flatten
+from keras.layers import Dense, Dropout,Activation, Flatten , Conv2D , MaxPooling2D, Dropout
 from keras.utils import np_utils
 from matplotlib import pyplot as plt
 from keras.models import model_from_json
@@ -11,8 +11,16 @@ from keras.models import model_from_json
 
 
 model = Sequential()
-model.add(Dense(units=500, input_dim=784, kernel_initializer='normal', activation='relu'))
-model.add(Dense(units=500, kernel_initializer='normal', activation='relu'))
+model.add(Conv2D(filters=16,kernel_size=(5,5),padding='same',input_shape=(28,28,1),activation='relu'))
+model.add(MaxPooling2D(pool_size=(2,2)))
+model.add(Conv2D(filters=40,kernel_size=(5,5),padding='same',activation='relu'))
+model.add(MaxPooling2D(pool_size=(2,2)))
+model.add(Flatten())
+model.add(Dense(units=300, kernel_initializer='normal', activation='relu'))
+model.add(Dropout(0.25))
+model.add(Dense(units=300, kernel_initializer='normal', activation='relu'))
+model.add(Dropout(0.25))
+model.add(Dense(units=300, kernel_initializer='normal', activation='relu'))
 model.add(Dense(units=10, kernel_initializer='normal',activation='softmax'))
 model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 
