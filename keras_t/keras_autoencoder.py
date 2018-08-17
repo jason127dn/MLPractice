@@ -9,8 +9,8 @@ import matplotlib.pyplot as plt
 
 x_train_2D = x_train.reshape(60000, 28*28).astype('float32')
 x_test_2D = x_test.reshape(10000, 28*28).astype('float32')
-x_train_norm=(x_train_2D/255.0-0.5)
-x_test_norm=(x_test_2D/255.0-0.5)
+x_train_norm=(x_train_2D/255.0)
+x_test_norm=(x_test_2D/255.0)
 
 input_img=Input(shape=(784,))
 encoder=Dense(units=1000,activation='relu')(input_img)
@@ -21,7 +21,7 @@ encoder_output=Dense(units=2)(encoder)
 decoder=Dense(units=50,activation='relu')(encoder_output)
 decoder=Dense(units=200,activation='relu')(decoder)
 decoder=Dense(units=1000,activation='relu')(decoder)
-decoder=Dense(units=784,activation='tanh')(decoder)
+decoder=Dense(units=784,activation='sigmoid')(decoder)
 
 autoencoder = Model(input=input_img, output=decoder)
 encode = Model(input=input_img, output=encoder_output)
