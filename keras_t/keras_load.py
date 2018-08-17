@@ -3,6 +3,7 @@ from keras.models import Sequential, load_model
 from keras.datasets import mnist
 from keras.utils import np_utils
 
+
 model = load_model('my_model.h5')
 (x_train, y_train),(x_test, y_test) = mnist.load_data()
 
