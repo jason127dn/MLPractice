@@ -16,7 +16,12 @@ x_test_norm=(x_test_2D/255.0)
 
 autoencoder = load_model('autoecd.h5')
 
-
+#encoder = Model(inputs=autoencoder.input,outputs=autoencoder.get_layer("e_out").output)
+encoder = Model(inputs=autoencoder.layers[0].input,outputs=autoencoder.layers[5].output)
+encoded_imgs=encoder.predict(x_test_norm)
+plt.scatter(encoded_imgs[:, 0], encoded_imgs[:, 1], c=y_test)
+plt.colorbar()
+plt.show()
 
 # Predict the Autoencoder output from corrupted test images
 x_decoded = autoencoder.predict(x_test_norm)
@@ -35,8 +40,8 @@ imgs = (imgs * 255).astype(np.uint8)
 plt.figure()
 plt.axis('off')
 plt.title('Original images: top rows, '
-          'Corrupted Input: middle rows, '
-          'Denoised Input:  third rows')
+          
+          'autoencoder images:  second rows')
 plt.imshow(imgs, interpolation='none', cmap='gray')
 Image.fromarray(imgs).save('corrupted_and_denoised.png')
 plt.show()
