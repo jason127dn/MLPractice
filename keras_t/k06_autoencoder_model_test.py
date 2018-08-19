@@ -14,7 +14,7 @@ x_test_2D = x_test.reshape(10000, 28,28,1).astype('float32')
 x_train_norm=(x_train_2D/255.0)
 x_test_norm=(x_test_2D/255.0)
 
-autoencoder = load_model(model_name[0])
+autoencoder = load_model(model_name[1])
 
 #encoder = Model(inputs=autoencoder.input,outputs=autoencoder.get_layer("encoder").output)
 #encoder = Model(inputs=autoencoder.layers[0].input,outputs=autoencoder.layers[5].output)
@@ -45,3 +45,34 @@ plt.title('Original images: top rows, '
 plt.imshow(imgs, interpolation='none', cmap='gray')
 Image.fromarray(imgs).save('corrupted_and_denoised.png')
 plt.show()
+
+
+intputcode=np.empty((30,30,2))
+_x=np.arange(-20,10,1)
+_y=np.arange(0,30,1)
+
+_x,_y=np.meshgrid(_x,_y)
+intputcode[:,:,0]=_x
+intputcode[:,:,1]=_y
+intputcode=intputcode.reshape((900,2))
+decoder=autoencoder.get_layer('decoder')
+g_img=decoder.predict(intputcode)
+print(g_img.shape)
+# Display the 1st 8 corrupted and denoised images
+rows, cols = 30, 30
+num = rows * cols
+
+imgs = g_img.reshape((rows, cols, image_size, image_size))
+imgs = np.vstack(np.split(imgs, rows, axis=1))
+imgs = g_img.reshape((rows , -1, image_size, image_size))
+imgs = np.vstack([np.hstack(i) for i in imgs])
+imgs = (imgs * 255).astype(np.uint8)
+plt.figure()
+plt.axis('off')
+plt.title('Original images: top rows, '
+
+          'autoencoder images:  second rows')
+plt.imshow(imgs, interpolation='none', cmap='gray')
+Image.fromarray(imgs).save('corrupted_and_denoised.png')
+plt.show()
+
