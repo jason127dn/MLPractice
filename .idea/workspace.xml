@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61f2116e-f03e-4880-956e-0fb9daeea4f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/keras_t/k08_VAE.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keras_t/k082_VAE_example.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras_t/k06_autoencoder_model_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/keras_t/k06_autoencoder_model_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras_t/k08_VAE.py" beforeDir="false" afterPath="$PROJECT_DIR$/keras_t/k08_VAE.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rm.md" beforeDir="false" afterPath="$PROJECT_DIR$/rm.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
@@ -22,45 +24,46 @@
           <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="4" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="keras01" value="1" />
-          <entry key="md" value="2" />
+          <entry key="md" value="3" />
           <entry key="png" value="3" />
-          <entry key="py" value="101" />
+          <entry key="py" value="103" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="3" />
-          <entry key="Markdown" value="2" />
+          <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="101" />
+          <entry key="Python" value="103" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="909" />
           <entry key="dummy" value="139" />
-          <entry key="md" value="1632" />
-          <entry key="py" value="5563" />
-          <entry key="txt" value="316" />
+          <entry key="md" value="3692" />
+          <entry key="py" value="5606" />
+          <entry key="txt" value="342" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="1632" />
-          <entry key="PLAIN_TEXT" value="455" />
-          <entry key="Python" value="6472" />
+          <entry key="Markdown" value="3692" />
+          <entry key="PLAIN_TEXT" value="481" />
+          <entry key="Python" value="6515" />
         </counts>
       </usages-collector>
     </session>
@@ -82,7 +85,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/keras_t/k07_Rnn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="831">
+            <state relative-caret-position="1474">
               <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
             </state>
           </provider>
@@ -101,10 +104,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/keras_t/k08_VAE.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1078">
-              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+            <state relative-caret-position="-66">
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/keras_t/k082_VAE_example.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="200" column="38" selection-start-line="200" selection-start-column="38" selection-end-line="200" selection-end-column="38" />
+              <folding>
+                <element signature="e#477#515#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,8 +128,8 @@
         <entry file="file://$PROJECT_DIR$/rm.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="595">
-                <caret line="67" column="10" lean-forward="true" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
+              <first_editor relative-caret-position="251">
+                <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
               </first_editor>
               <second_editor />
             </state>
@@ -130,8 +144,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/keras_t/k06_autoencoder_model_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="29" lean-forward="true" selection-start-line="9" selection-end-line="14" selection-end-column="29" />
+            <state relative-caret-position="-401">
+              <caret line="22" column="74" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="74" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -153,6 +167,7 @@
       <find>print_</find>
       <find>print_f</find>
       <find>print</find>
+      <find>plot_results</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -182,12 +197,14 @@
         <option value="$PROJECT_DIR$/keras_t/k05_autoencoder_cnn.py" />
         <option value="$PROJECT_DIR$/keras_t/k01_mnist_and_sequential.py" />
         <option value="$PROJECT_DIR$/keras_t/k04_autoencoder.py" />
-        <option value="$PROJECT_DIR$/keras_t/k06_autoencoder_model_test.py" />
         <option value="$PROJECT_DIR$/keras_t/models/k07_RNN.py" />
         <option value="$PROJECT_DIR$/keras_t/k07_Rnn.py" />
         <option value="$PROJECT_DIR$/keras_t/keras_doc.md" />
         <option value="$PROJECT_DIR$/keras_t/k07_vae.py" />
+        <option value="$PROJECT_DIR$/keras_t/k08_2_keras example.py" />
         <option value="$PROJECT_DIR$/keras_t/k08_VAE.py" />
+        <option value="$PROJECT_DIR$/keras_t/k082_VAE_example.py" />
+        <option value="$PROJECT_DIR$/keras_t/k06_autoencoder_model_test.py" />
         <option value="$PROJECT_DIR$/rm.md" />
       </list>
     </option>
@@ -195,8 +212,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="67" />
     <option name="y" value="25" />
-    <option name="width" value="1853" />
-    <option name="height" value="1055" />
+    <option name="width" value="1843" />
+    <option name="height" value="789" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -223,7 +240,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -231,10 +247,16 @@
               <item name="MLPractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="MLPractice" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MLPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MLPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="keras_t" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -258,28 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.k08_VAE">
-    <configuration name="autoencoder_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MLpractice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/keras_t" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keras_t/k05_autoencoder_cnn.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.autoencoderload">
     <configuration name="autoencoderload" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MLpractice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -314,6 +315,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keras_t/k07_Rnn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="k08_2_keras example" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MLpractice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/keras_t" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keras_t/k08_2_keras example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -366,18 +388,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.keras_autoencoder" />
-      <item itemvalue="Python.autoencoder_example" />
       <item itemvalue="Python.autoencoderload" />
       <item itemvalue="Python.k07_Rnn" />
       <item itemvalue="Python.k08_VAE" />
+      <item itemvalue="Python.k08_2_keras example" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.autoencoderload" />
+        <item itemvalue="Python.k08_2_keras example" />
         <item itemvalue="Python.k08_VAE" />
         <item itemvalue="Python.k07_Rnn" />
-        <item itemvalue="Python.autoencoderload" />
         <item itemvalue="Python.keras_autoencoder" />
-        <item itemvalue="Python.autoencoder_example" />
       </list>
     </recent_temporary>
   </component>
@@ -497,7 +519,14 @@
       <option name="project" value="LOCAL" />
       <updated>1534686887174</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add vae &#10;edit readme.md">
+      <created>1534746737524</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1534746737524</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView">
@@ -511,19 +540,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19344263" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19344263" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4985003" weight="0.32972974" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7879781" weight="0.2745946" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7879781" visible="true" weight="0.25945947" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.40756756" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49945354" weight="0.32972974" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4989071" weight="0.32972974" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49605343" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49605343" weight="0.32864866" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.21202186" side_tool="true" weight="0.5026969" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.7741348" weight="0.32864866" />
       <window_info anchor="bottom" id="Messages" order="11" />
@@ -551,7 +581,8 @@
     <MESSAGE value="rename" />
     <MESSAGE value="integrate k04 k05" />
     <MESSAGE value="rnn learn sin function" />
-    <option name="LAST_COMMIT_MESSAGE" value="rnn learn sin function" />
+    <MESSAGE value="add vae &#10;edit readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="add vae &#10;edit readme.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -575,27 +606,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/matplotlib_t/example/api/sankey_links.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/matplotlib_t/example/api/radar_chart.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/matplotlib_t/example/user_interfaces/embedding_in_gtk2_sgskip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/matplotlib_t/example/user_interfaces/embedding_in_gtk3_panzoom_sgskip.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -833,6 +843,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/keras_t/models/k07_RNN.py" />
+    <entry file="file://$PROJECT_DIR$/keras_t/k07_vae.py" />
     <entry file="file://$PROJECT_DIR$/keras_t/k04_autoencoder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
@@ -843,27 +854,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/numpy_t/numpy01.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/keras_t/k07_Rnn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="831">
+        <state relative-caret-position="1474">
           <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/keras_t/k06_autoencoder_model_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="29" lean-forward="true" selection-start-line="9" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keras_t/k07_vae.py">
+    <entry file="file://$PROJECT_DIR$/numpy_t/numpy01.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/keras_t/keras_doc.md">
@@ -876,10 +874,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/keras_t/k08_VAE.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1078">
-          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+        <state relative-caret-position="-66">
           <folding>
             <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras_t/k08_2_keras example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="41" selection-end-line="200" selection-end-column="38" />
+          <folding>
+            <element signature="e#477#515#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras_t/k06_autoencoder_model_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-401">
+          <caret line="22" column="74" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="74" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras_t/k082_VAE_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="200" column="38" selection-start-line="200" selection-start-column="38" selection-end-line="200" selection-end-column="38" />
+          <folding>
+            <element signature="e#477#515#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -887,8 +922,8 @@
     <entry file="file://$PROJECT_DIR$/rm.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="595">
-            <caret line="67" column="10" lean-forward="true" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
+          <first_editor relative-caret-position="251">
+            <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
           </first_editor>
           <second_editor />
         </state>

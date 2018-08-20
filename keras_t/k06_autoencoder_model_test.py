@@ -20,7 +20,7 @@ autoencoder = load_model(model_name[1])
 #encoder = Model(inputs=autoencoder.layers[0].input,outputs=autoencoder.layers[5].output)
 encoder=autoencoder.get_layer('encoder')
 encoded_imgs=encoder.predict(x_test_norm)
-plt.scatter(encoded_imgs[:, 0], encoded_imgs[:, 1], c=y_test)
+plt.scatter(encoded_imgs[:, 0], encoded_imgs[:, 1], c=y_test,cmap='rainbow')
 plt.colorbar()
 plt.show()
 

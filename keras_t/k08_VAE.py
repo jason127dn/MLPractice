@@ -1,3 +1,4 @@
+
 from keras.layers import Dense, Input,Lambda
 from keras.models import Sequential, load_model, Model
 from keras.losses import binary_crossentropy
@@ -8,12 +9,6 @@ import matplotlib.pyplot as plt
 from PIL import Image
 from keras import backend as K
 
-(x_train, y_train),(x_test,y_test) = mnist.load_data()
-
-x_train_2D = x_train.reshape(60000, 28,28,1).astype('float32')
-x_test_2D = x_test.reshape(10000, 28,28,1).astype('float32')
-x_train_norm=(x_train_2D/255.0)
-x_test_norm=(x_test_2D/255.0)
 
 batch_size = 100
 original_dim = 784
