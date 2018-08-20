@@ -22,6 +22,8 @@ h = Dense(intermediate_dim, activation='relu')(x)#2
 z_mean = Dense(latent_dim)(h)
 z_log_var = Dense(latent_dim)(h)
 
+#define layer
+
 def sampling(args):
     z_mean, z_log_var = args
     epsilon = K.random_normal(shape=(batch_size, latent_dim), mean=0.,stddev=epsilon_std)
@@ -29,6 +31,7 @@ def sampling(args):
 
 
 z = Lambda(sampling, output_shape=(latent_dim,))([z_mean, z_log_var])
+
 decoder_h = Dense(intermediate_dim, activation='relu')
 decoder_mean = Dense(original_dim, activation='sigmoid')
 h_decoded = decoder_h(z)
