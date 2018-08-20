@@ -11,10 +11,10 @@ from keras.models import model_from_json
 
 
 model = Sequential()
-model.add(Conv2D(filters=30,kernel_size=(5,5),padding='same',input_shape=(28,28,1),activation='relu'))
-model.add(MaxPooling2D(pool_size=(2,2)))
-model.add(Conv2D(filters=40,kernel_size=(5,5),padding='same',activation='relu'))
-model.add(MaxPooling2D(pool_size=(2,2)))
+model.add(Conv2D(filters=30,kernel_size=(5,5),padding='same',input_shape=(28,28,1),activation='relu',name='c1'))
+model.add(MaxPooling2D(pool_size=(2,2),name='p1'))
+model.add(Conv2D(filters=40,kernel_size=(5,5),padding='same',activation='relu',name='c2'))
+model.add(MaxPooling2D(pool_size=(2,2),name='p2'))
 model.add(Flatten())
 model.add(Dense(units=300, kernel_initializer='normal', activation='relu'))
 model.add(Dropout(0.25))
@@ -58,6 +58,6 @@ plt.legend(['loss', 'val_loss'], loc='upper left')
 plt.show()
 
 
-model.save_weights("model.weight")
+model.save_weights("model/cnn.weight")
 
 model.save('my_model.h5')
