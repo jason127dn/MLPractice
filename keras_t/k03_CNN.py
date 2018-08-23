@@ -26,9 +26,9 @@ model.add(Dense(units=10, kernel_initializer='normal',activation='softmax'))
 #
 input_layer=Input((28,28,1),name='inlayer')
 x=input_layer
-x=Conv2D(filters=30,kernel_size=(5,5),padding='same',input_shape=(28,28,1),activation='relu',name='c1')(x)
+x=Conv2D(filters=30,kernel_size=(5,5),padding='same',input_shape=(28,28,1),name='c1')(x)
 x=MaxPooling2D(pool_size=(2,2),name='p1')(x)
-x=Conv2D(filters=40,kernel_size=(5,5),padding='same',activation='relu',name='c2')(x)
+x=Conv2D(filters=40,kernel_size=(5,5),padding='same',name='c2')(x)
 x=MaxPooling2D(pool_size=(2,2),name='p2')(x)
 x=Flatten()(x)
 x=Dense(units=300, kernel_initializer='normal', activation='relu')(x)
@@ -59,7 +59,7 @@ x_Train_norm = x_train_2D/255
 x_Test_norm = x_test_2D/255
 
 # 進行訓練, 訓練過程會存在 train_history 變數中
-train_history = model.fit(x=x_Train_norm, y=y_Trainonehot, validation_split=0.33, epochs=20, batch_size=400, verbose=2)
+train_history = model.fit(x=x_Train_norm, y=y_Trainonehot, validation_split=0.33, epochs=20, batch_size=400, verbose=1)
 
 # 顯示訓練成果(分數)
 scores = model.evaluate(x_Test_norm, y_Testonehot)
@@ -67,12 +67,12 @@ print()
 print("\t[Info] Accuracy of testing data = {:2.1f}%".format(scores[1]*100.0))
 
 
-model.save_weights("models/cnn.weight")
-model.save('models/cnn.h5')
+model.save_weights("models/cnn0822.weight")
+model.save('models/cnn0822.h5')
 
 # 預測(prediction)
 X = x_Test_norm[0:10,:]
-predictions = model.predict_classes(X)
+predictions = model.predict(X)
 # get prediction result
 print(predictions)
 

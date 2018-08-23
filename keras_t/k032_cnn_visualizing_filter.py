@@ -1,7 +1,7 @@
 #[V] add layer before load model
-#[ ] set untrainable layer
-#[ ] get output from nn
-#[ ] custom loss function
+#[V] set untrainable layer
+#[V] get output from nn
+#[V] custom loss function
 from keras import backend as K
 from keras.models import load_model,Model
 from keras.layers import Dense,Conv2D,Reshape,Input,Activation

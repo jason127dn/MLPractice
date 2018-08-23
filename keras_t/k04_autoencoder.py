@@ -32,7 +32,7 @@ autoencoder = Model(input_img,dcd(ecd(input_img)),name='autoencoder')
 
 autoencoder.compile(loss='mean_squared_error',optimizer='adam')
 
-train_history = autoencoder.fit(x=x_train_norm, y=x_train_norm, validation_split=0.2, epochs=30, batch_size=800, verbose=2)
+train_history = autoencoder.fit(x_train_norm, x_train_norm, validation_split=0.2, epochs=30, batch_size=800, verbose=2)
 
 autoencoder.save_weights("autoecd.weight")
 autoencoder.save('autoecd.h5')
