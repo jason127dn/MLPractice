@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61f2116e-f03e-4880-956e-0fb9daeea4f9" name="Default Changelist" comment="face recognition">
-      <change afterPath="$PROJECT_DIR$/hw3/train.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw3/face_recognition.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw3/face_recognition.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keras_t/k032_cnn_visualizing_filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/keras_t/k032_cnn_visualizing_filter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keras_t/k03_CNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/keras_t/k03_CNN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keras_t/k04_autoencoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/keras_t/k04_autoencoder.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +21,7 @@
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="6" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
@@ -36,7 +32,7 @@
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="4" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="29" />
+          <entry key="project.opened" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -59,24 +55,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="5259" />
+          <entry key="Python Console" value="5335" />
           <entry key="dummy" value="139" />
           <entry key="md" value="3692" />
-          <entry key="py" value="9686" />
-          <entry key="txt" value="520" />
+          <entry key="py" value="9786" />
+          <entry key="txt" value="544" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="3692" />
-          <entry key="PLAIN_TEXT" value="659" />
-          <entry key="Python" value="14945" />
+          <entry key="PLAIN_TEXT" value="683" />
+          <entry key="Python" value="15121" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4078624">
+    <splitter split-orientation="horizontal" split-proportion="0.4551597">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -91,8 +87,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/keras_t/k032_cnn_visualizing_filter.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-444">
-                  <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+                <state relative-caret-position="360">
+                  <caret line="50" selection-start-line="50" selection-end-line="50" />
                   <folding>
                     <element signature="e#110#140#0" expanded="true" />
                     <marker date="1534950463155" expanded="true" signature="944:953" ph="..." />
@@ -122,8 +118,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/keras_t/k03_CNN.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1804">
-                  <caret line="89" selection-start-line="81" selection-end-line="89" />
+                <state relative-caret-position="547">
+                  <caret line="78" column="16" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="16" />
                   <folding>
                     <element signature="e#0#18#0" expanded="true" />
                   </folding>
@@ -134,8 +130,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/hw3/face_recognition.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="494">
-                  <caret line="62" lean-forward="true" selection-start-line="42" selection-end-line="62" />
+                <state relative-caret-position="111">
+                  <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
                   <folding>
                     <element signature="e#0#30#0" expanded="true" />
                   </folding>
@@ -599,7 +595,14 @@
       <option name="project" value="LOCAL" />
       <updated>1534864096305</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="add activation function">
+      <created>1534990857319</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1534990857319</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TodoView">
@@ -613,8 +616,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="117" y="206" width="394" height="685" id="Project" order="0" visible="true" weight="0.11038251" />
+      <window_info content_ui="combo" x="117" y="206" width="394" height="685" id="Project" order="0" visible="true" weight="0.16830601" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -628,7 +632,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49605343" weight="0.32864866" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.21202186" side_tool="true" weight="0.5026969" />
       <window_info anchor="bottom" id="Messages" order="10" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="11" sideWeight="0.7874317" visible="true" weight="0.3145946" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="11" sideWeight="0.7874317" visible="true" weight="0.40216216" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -721,7 +725,8 @@
     <MESSAGE value="face recognition load image" />
     <MESSAGE value="rm data" />
     <MESSAGE value="face recognition" />
-    <option name="LAST_COMMIT_MESSAGE" value="face recognition" />
+    <MESSAGE value="add activation function" />
+    <option name="LAST_COMMIT_MESSAGE" value="add activation function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1047,6 +1052,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/keras_t/k032_cnn_visualizing_filter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#110#140#0" expanded="true" />
+            <marker date="1534950463155" expanded="true" signature="944:953" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/keras_t/k05_autoencoder_cnn.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -1061,29 +1077,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/keras_t/k03_CNN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1804">
-          <caret line="89" selection-start-line="81" selection-end-line="89" />
+        <state relative-caret-position="547">
+          <caret line="78" column="16" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="16" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/keras_t/k032_cnn_visualizing_filter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-444">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#110#140#0" expanded="true" />
-            <marker date="1534950463155" expanded="true" signature="944:953" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hw3/face_recognition.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="62" lean-forward="true" selection-start-line="42" selection-end-line="62" />
+        <state relative-caret-position="111">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
