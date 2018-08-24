@@ -143,3 +143,5 @@ plt.title('Original images: top rows, '
 plt.imshow(imgs, interpolation='none', cmap='gray')
 Image.fromarray(imgs).save('corrupted_and_denoised.png')
 plt.show()
+
+model.prede

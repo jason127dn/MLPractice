@@ -43,11 +43,19 @@ y_test = labelc[20000:]
 
 input_layer=Input((48,48,1),name='intput_layer')
 x=Conv2D(filters=20,kernel_size=(5,5),name='conv1',padding='same',activation='relu')(input_layer)
-x=MaxPooling2D(pool_size=(2,2),name='p1')(x)
-x=Conv2D(filters=60,kernel_size=(5,5),name='conv3',padding='same',activation='relu')(x)
+#x=MaxPooling2D(pool_size=(2,2),name='p1')(x)
+#x=Dropout(0.2)(x)
+x=Conv2D(filters=40,kernel_size=(4,4),name='conv2',padding='same',activation='relu')(x)
+x=MaxPooling2D(pool_size=(3,3),name='p2')(x)
+x=Dropout(0.2)(x)
+x=Conv2D(filters=80,kernel_size=(3,3),name='conv3',padding='same',activation='relu')(x)
 x=MaxPooling2D(pool_size=(2,2),name='p3')(x)
+x=Dropout(0.2)(x)
+x=Conv2D(filters=160,kernel_size=(2,2),name='conv4',padding='same',activation='relu')(x)
+x=MaxPooling2D(pool_size=(2,2),name='p4')(x)
+x=Dropout(0.2)(x)
 x=Flatten(name='f1')(x)
-x=Dense(units=300,kernel_initializer='normal',activation='relu')(x)
+x=Dense(units=500,kernel_initializer='normal',activation='relu')(x)
 x=Dropout(0.25)(x)
 x=Dense(units=100,kernel_initializer='normal',activation='relu')(x)
 x=Dropout(0.25)(x)
@@ -57,7 +65,7 @@ model=Model(input_layer,x)
 model.summary()
 model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 
-train_history = model.fit(x=x_train, y=y_train, validation_split=0.2, epochs=20, batch_size=400)
+train_history = model.fit(x=x_train, y=y_train, validation_split=0.2, epochs=50, batch_size=400)
 
 
 
@@ -68,3 +76,6 @@ plt.ylabel('loss')
 plt.xlabel('Epoch')
 plt.legend(['loss', 'val_loss'], loc='upper left')
 plt.show()
+
+prd=model.predict(x_test)
+acc=np.sum(y_test*prd)/y_test.shape[0]
