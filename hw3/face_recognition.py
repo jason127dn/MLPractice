@@ -42,23 +42,21 @@ y_test = labelc[20000:]
 
 
 input_layer=Input((48,48,1),name='intput_layer')
-x=Conv2D(filters=20,kernel_size=(3,3),name='conv1',activation='relu')(input_layer)
-x=BatchNormalization()(x)
-x=Conv2D(filters=40,kernel_size=(3,3),name='conv2',padding='same',activation='relu')(x)
-x=BatchNormalization()(x)
+x=BatchNormalization()(input_layer)
+x=Conv2D(filters=15,kernel_size=(3,3),name='conv1',activation='relu')(x)
+x=Conv2D(filters=30,kernel_size=(3,3),name='conv2',padding='same',activation='relu')(x)
 x=MaxPooling2D(pool_size=(3,3),name='p2')(x)
-x=Dropout(0.3)(x)
-x=Conv2D(filters=80,kernel_size=(3,3),name='conv3',padding='same',activation='relu')(x)
 x=BatchNormalization()(x)
-x=Conv2D(filters=160,kernel_size=(3,3),name='conv4',padding='same',activation='relu')(x)
-x=BatchNormalization()(x)
+x=Dropout(0.2)(x)
+x=Conv2D(filters=60,kernel_size=(3,3),name='conv3',padding='same',activation='relu')(x)
 x=MaxPooling2D(pool_size=(3,3),name='p3')(x)
-x=Dropout(0.3)(x)
+x=BatchNormalization()(x)
+x=Dropout(0.2)(x)
 x=Flatten(name='f1')(x)
 x=Dense(units=400,kernel_initializer='normal',activation='relu')(x)
-x=Dropout(0.35)(x)
+x=Dropout(0.3)(x)
 x=Dense(units=100,kernel_initializer='normal',activation='relu')(x)
-x=Dropout(0.35)(x)
+x=Dropout(0.3)(x)
 x=Dense(units=7,kernel_initializer='normal',activation='softmax')(x)
 
 model=Model(input_layer,x)
@@ -77,3 +75,7 @@ plt.show()
 
 prd=model.predict(x_test)
 acc=np.sum(y_test*prd)/y_test.shape[0]
+
+for i in range(5):
+    model.fit(x=x_train, y=y_train, validation_split=0.2, epochs=5, batch_size=400)
+    model.fit(x=x_train[:,:,::-1,:], y=y_train, validation_split=0.2, epochs=5, batch_size=400)

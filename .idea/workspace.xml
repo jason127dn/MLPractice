@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61f2116e-f03e-4880-956e-0fb9daeea4f9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/hw3/models/filter_vasualization.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw3/face_recognition.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw3/face_recognition.py" afterDir="false" />
     </list>
@@ -16,13 +17,13 @@
     <session id="810096691">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="23" />
+          <entry key="project.closed" value="24" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="7" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="3" />
-          <entry key="project.open.time.15" value="2" />
+          <entry key="project.open.time.15" value="3" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
@@ -34,7 +35,7 @@
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="4" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="34" />
+          <entry key="project.opened" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -43,44 +44,44 @@
           <entry key="jpg" value="1" />
           <entry key="keras01" value="1" />
           <entry key="md" value="3" />
-          <entry key="png" value="6" />
-          <entry key="py" value="152" />
+          <entry key="png" value="7" />
+          <entry key="py" value="153" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="7" />
+          <entry key="Image" value="8" />
           <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="152" />
+          <entry key="Python" value="153" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="5765" />
+          <entry key="Python Console" value="5842" />
           <entry key="dummy" value="139" />
           <entry key="md" value="3692" />
-          <entry key="py" value="10040" />
-          <entry key="txt" value="586" />
+          <entry key="py" value="10144" />
+          <entry key="txt" value="596" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="3692" />
-          <entry key="PLAIN_TEXT" value="725" />
-          <entry key="Python" value="15805" />
+          <entry key="PLAIN_TEXT" value="735" />
+          <entry key="Python" value="15986" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4551597">
+    <splitter split-orientation="horizontal" split-proportion="0.3278581">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/keras_t/k00_keras_test_code.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-318">
+                <state relative-caret-position="-308">
                   <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
                 </state>
               </provider>
@@ -132,10 +133,22 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/hw3/face_recognition.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="208">
-                  <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+                <state relative-caret-position="349">
+                  <caret line="76" column="38" lean-forward="true" selection-start-line="74" selection-end-line="76" selection-end-column="38" />
                   <folding>
                     <element signature="e#0#30#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/hw3/models/filter_vasualization.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-759">
+                  <caret line="86" column="25" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="25" />
+                  <folding>
+                    <element signature="e#175#212#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -163,6 +176,7 @@
       <find>apport_excepthook</find>
       <find>install</find>
       <find>compiled</find>
+      <find>step</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -206,14 +220,15 @@
         <option value="$PROJECT_DIR$/keras_t/k032_cnn_visualizing_filter.py" />
         <option value="$PROJECT_DIR$/keras_t/k05_autoencoder_cnn.py" />
         <option value="$PROJECT_DIR$/hw3/face_recognition.py" />
+        <option value="$PROJECT_DIR$/hw3/models/filter_vasualization.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-40" />
-    <option name="y" value="681" />
-    <option name="width" value="1813" />
-    <option name="height" value="746" />
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="1853" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -240,7 +255,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -253,10 +267,17 @@
               <item name="MLPractice" type="462c0819:PsiDirectoryNode" />
               <item name="hw3" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MLPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MLPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="hw3" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -283,8 +304,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.k03_CNN">
-    <configuration name="face_recognition" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.filter_vasualization">
+    <configuration name="filter_vasualization" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MLpractice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -292,11 +313,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hw3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hw3/models" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hw3/face_recognition.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hw3/models/filter_vasualization.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -392,17 +413,17 @@
     <list>
       <item itemvalue="Python.k03_CNN" />
       <item itemvalue="Python.k032_cnn_visualizing_filter" />
-      <item itemvalue="Python.face_recognition" />
       <item itemvalue="Python.k04_autoencoder" />
       <item itemvalue="Python.k05_autoencoder_cnn" />
+      <item itemvalue="Python.filter_vasualization" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.filter_vasualization" />
         <item itemvalue="Python.k03_CNN" />
         <item itemvalue="Python.k032_cnn_visualizing_filter" />
         <item itemvalue="Python.k04_autoencoder" />
         <item itemvalue="Python.k05_autoencoder_cnn" />
-        <item itemvalue="Python.face_recognition" />
       </list>
     </recent_temporary>
   </component>
@@ -613,7 +634,14 @@
       <option name="project" value="LOCAL" />
       <updated>1535083908373</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="batch norm">
+      <created>1535127579895</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1535127579896</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TodoView">
@@ -627,14 +655,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" x="117" y="206" width="394" height="685" id="Project" order="0" visible="true" weight="0.16830601" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4985003" weight="0.32972974" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6431694" visible="true" weight="0.44108108" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6431694" weight="0.38918918" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.21256831" side_tool="true" weight="0.44648647" />
@@ -643,7 +670,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49605343" weight="0.32864866" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.21202186" side_tool="true" weight="0.5026969" />
       <window_info anchor="bottom" id="Messages" order="10" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="11" sideWeight="0.7874317" visible="true" weight="0.43351352" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="11" sideWeight="0.7874317" visible="true" weight="0.43243244" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -712,7 +739,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="matplotlib tutorial code" />
     <MESSAGE value="more matplotlib tutorial code" />
     <MESSAGE value="keras for mnist" />
     <MESSAGE value="cnn code" />
@@ -737,7 +763,8 @@
     <MESSAGE value="add activation function" />
     <MESSAGE value="acc 75 val acc 52" />
     <MESSAGE value="improve cnn model" />
-    <option name="LAST_COMMIT_MESSAGE" value="improve cnn model" />
+    <MESSAGE value="batch norm" />
+    <option name="LAST_COMMIT_MESSAGE" value="batch norm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -796,20 +823,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/matplotlib_t/example/widgets/menu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/matplotlib_t/example/event_handling/timers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/matplotlib_t/example/event_handling/trifinder_event_demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1058,7 +1071,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/keras_t/k00_keras_test_code.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-318">
+        <state relative-caret-position="-308">
           <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
         </state>
       </provider>
@@ -1096,10 +1109,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hw3/models/stitched_filters_8x8.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw3/models/filter_vasualization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-759">
+          <caret line="86" column="25" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="25" />
+          <folding>
+            <element signature="e#175#212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hw3/face_recognition.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+        <state relative-caret-position="349">
+          <caret line="76" column="38" lean-forward="true" selection-start-line="74" selection-end-line="76" selection-end-column="38" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
