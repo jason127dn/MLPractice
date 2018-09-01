@@ -31,7 +31,7 @@ what can we do
 * classification
 * ...
 
-####1.2 how did machine learn
+#### 1.2 how did machine learn
 problem we will solute
 1. prodiction
 2. classification
@@ -51,10 +51,10 @@ three step:
     make loss function as small as you can
     
 
-##2 regression
+## 2 regression
 output a scalar  
 
-####2.1
+#### 2.1
 three step:
 1. Model(linear)  
 y=b+wx
@@ -65,22 +65,22 @@ y=b+wx
 
     how to define loss function -> [loss](https://keras.io/zh/losses/)
         
-        1. mean-squared-error
-        2. categorial_crossentropy
-        99. ...  
+      1. mean-squared-error
+      2. categorial_crossentropy
+      99. ...  
 
 3. gradient descent  
     w <sub>n</sub> =w<sub>n-1</sub>- r * dL/dw
 
     how to adaptive learning rate -> [optimizers](https://keras.io/zh/optimizers/) in keras
         
-        1. adaptive
-        2. Adagrad
-        3. SGD
-        4. RMSprop
-        5. Adadelta
-        6. Adam
-        99. ...
+      1. adaptive
+      2. Adagrad
+      3. SGD
+      4. RMSprop
+      5. Adadelta
+      6. Adam
+      99. ...
     tips  
     1. Stochastic Gradient Descent
     2. Feature Scaling
@@ -89,7 +89,7 @@ y=b+wx
 problem:  
 overfitting underfitting(how to find best model)
 
-####2.2
+#### 2.2
 where do the error come from
 1. bias
     underfitting  
@@ -102,30 +102,30 @@ where do the error come from
 
 use cross validation
 
-##3.Classification
-####3.1 logistic regression
+## 3.Classification
+#### 3.1 logistic regression
 1. model  
 sigmiod function: f<sub>w,b1</sub>(x)=1/(1+e<sup>-(wx+b)</sup>) 
 [activation]() in keras
 2. loss  
 cross entropy: L(f)=sum(C(f(x<sup>n</sup>),y<sup>n</sup>))  
 3. gradient descent
-####3.2 multiclass regression
+#### 3.2 multiclass regression
 1. model 
 use softmax:
 
 3.3 limitation  
 make it deep!!
 
-##4. Deep learning 
-####4.1 Nerual Network
+## 4. Deep learning 
+#### 4.1 Nerual Network
 1. model  
 full-connected([desence]()),cnn([conv2D]),rnn([LSTM]),....
 2. loss  
 forward pass
 3. gradient descent  
 backpropagation
-####4.2 tips
+#### 4.2 tips
 problem training bad or testing bad  
 training bad:  
 deep is not always good : gradient vanishing  
@@ -135,11 +135,12 @@ testing bad(overfitting):
 * regularization
 * dropout
 
-##5. Keras
+## 5. Keras
 
 
-##6. Convolutional Netual Network
+## 6. Convolutional Netual Network
 #### 6.1 convolution
+
 #### 6.2 maxpooling
 #### 6.3 cnn in keras
 #### 6.4 application
@@ -147,6 +148,8 @@ testing bad(overfitting):
 2. deepstyle
 3. alphaGo
 4. speech
+####　6.5 training tips
+1. 
 
 
 

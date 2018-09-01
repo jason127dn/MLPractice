@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61f2116e-f03e-4880-956e-0fb9daeea4f9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/rm.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gans_t/gans010_mf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensorflow_t/tf010.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensorflow_t/tf020_tensorflowboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw3/face_recognition.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw3/face_recognition.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,17 +20,21 @@
     <session id="810096691">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="24" />
+          <entry key="project.closed" value="29" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="7" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="3" />
           <entry key="project.open.time.15" value="3" />
+          <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="1" />
@@ -33,7 +42,7 @@
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="4" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="36" />
+          <entry key="project.opened" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -43,7 +52,7 @@
           <entry key="keras01" value="1" />
           <entry key="md" value="5" />
           <entry key="png" value="8" />
-          <entry key="py" value="153" />
+          <entry key="py" value="155" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -51,122 +60,116 @@
           <entry key="Image" value="9" />
           <entry key="Markdown" value="5" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="153" />
+          <entry key="Python" value="155" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="5883" />
+          <entry key="Python Console" value="8227" />
           <entry key="dummy" value="139" />
-          <entry key="md" value="3692" />
-          <entry key="py" value="10144" />
-          <entry key="txt" value="620" />
+          <entry key="md" value="3756" />
+          <entry key="py" value="10610" />
+          <entry key="txt" value="625" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="3692" />
-          <entry key="PLAIN_TEXT" value="759" />
-          <entry key="Python" value="16027" />
+          <entry key="Markdown" value="3756" />
+          <entry key="PLAIN_TEXT" value="764" />
+          <entry key="Python" value="18837" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3278581">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/keras_t/k00_keras_test_code.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-109">
-                  <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/keras_t/k032_cnn_visualizing_filter.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1012">
-                  <caret line="50" selection-start-line="50" selection-end-line="50" />
-                  <folding>
-                    <element signature="e#110#140#0" expanded="true" />
-                    <marker date="1534950463155" expanded="true" signature="944:953" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/keras_t/k05_autoencoder_cnn.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2948">
-                  <caret line="146" column="11" selection-start-line="146" selection-start-column="11" selection-end-line="146" selection-end-column="11" />
-                  <folding>
-                    <element signature="e#664#702#0" expanded="true" />
-                    <element signature="e#2964#2999#0" />
-                    <element signature="e#3197#3403#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/keras_t/k03_CNN.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1474">
-                  <caret line="74" selection-start-line="74" selection-end-line="74" selection-end-column="30" />
-                  <folding>
-                    <element signature="e#0#18#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/hw3/face_recognition.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="349">
-                  <caret line="76" column="38" lean-forward="true" selection-start-line="74" selection-end-line="76" selection-end-column="38" />
-                  <folding>
-                    <element signature="e#0#30#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/README.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="69">
-                    <caret line="136" selection-start-line="136" selection-end-line="136" />
-                  </first_editor>
-                  <second_editor />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/hw3/models/filter_vasualization.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-759">
-                  <caret line="86" column="25" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="25" />
-                  <folding>
-                    <element signature="e#175#212#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/keras_t/k05_autoencoder_cnn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2948">
+              <caret line="146" column="11" selection-start-line="146" selection-start-column="11" selection-end-line="146" selection-end-column="11" />
+              <folding>
+                <element signature="e#664#702#0" expanded="true" />
+                <element signature="e#2964#2999#0" />
+                <element signature="e#3197#3403#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/keras_t/k03_CNN.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1474">
+              <caret line="74" selection-start-line="74" selection-end-line="74" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hw3/face_recognition.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1056">
+              <caret line="55" column="15" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tensorflow_t/tf010.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2530">
+              <caret line="119" selection-start-line="119" selection-end-line="119" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tensorflow_t/tf020_tensorflowboard.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-87">
+              <caret line="48" column="24" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="24" />
+              <folding>
+                <element signature="e#333#370#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="3322">
+                <caret line="151" column="3" selection-start-line="151" selection-start-column="3" selection-end-line="151" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hw3/filter_vasualization.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1760">
+              <caret line="86" column="25" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="25" />
+              <folding>
+                <element signature="e#175#212#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -229,16 +232,19 @@
         <option value="$PROJECT_DIR$/keras_t/k03_CNN.py" />
         <option value="$PROJECT_DIR$/keras_t/k032_cnn_visualizing_filter.py" />
         <option value="$PROJECT_DIR$/keras_t/k05_autoencoder_cnn.py" />
-        <option value="$PROJECT_DIR$/hw3/face_recognition.py" />
         <option value="$PROJECT_DIR$/hw3/models/filter_vasualization.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/hw3/face_recognition.py" />
+        <option value="$PROJECT_DIR$/tensorflow_t/tf010.py" />
+        <option value="$PROJECT_DIR$/tensorflow_t/tf020_tensorflowboard.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="67" />
-    <option name="y" value="25" />
-    <option name="width" value="1853" />
-    <option name="height" value="1055" />
+    <option name="x" value="758" />
+    <option name="y" value="143" />
+    <option name="width" value="1241" />
+    <option name="height" value="789" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -265,6 +271,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -275,19 +282,18 @@
             <path>
               <item name="MLPractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="MLPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="hw3" type="462c0819:PsiDirectoryNode" />
+              <item name="tensorflow_t" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MLPractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="MLPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="hw3" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="tensorflow_t" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -295,11 +301,12 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/keras_t/models" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/hw3" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hw3" />
+      <recent name="$PROJECT_DIR$/keras_t/models" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -314,7 +321,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.filter_vasualization">
+  <component name="RunManager" selected="Python.gans010_mf">
     <configuration name="filter_vasualization" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MLpractice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -328,6 +335,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hw3/filter_vasualization.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gans010_mf" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MLpractice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gans_t" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gans_t/gans010_mf.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -378,7 +406,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="k04_autoencoder" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tf020_tensorflowboard" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MLpractice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -386,32 +414,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/keras_t" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensorflow_t" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keras_t/k04_autoencoder.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="k05_autoencoder_cnn" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MLpractice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/keras_t" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keras_t/k05_autoencoder_cnn.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorflow_t/tf020_tensorflowboard.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -423,17 +430,17 @@
     <list>
       <item itemvalue="Python.k03_CNN" />
       <item itemvalue="Python.k032_cnn_visualizing_filter" />
-      <item itemvalue="Python.k04_autoencoder" />
-      <item itemvalue="Python.k05_autoencoder_cnn" />
       <item itemvalue="Python.filter_vasualization" />
+      <item itemvalue="Python.tf020_tensorflowboard" />
+      <item itemvalue="Python.gans010_mf" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.gans010_mf" />
+        <item itemvalue="Python.tf020_tensorflowboard" />
         <item itemvalue="Python.filter_vasualization" />
         <item itemvalue="Python.k03_CNN" />
         <item itemvalue="Python.k032_cnn_visualizing_filter" />
-        <item itemvalue="Python.k04_autoencoder" />
-        <item itemvalue="Python.k05_autoencoder_cnn" />
       </list>
     </recent_temporary>
   </component>
@@ -658,7 +665,14 @@
       <option name="project" value="LOCAL" />
       <updated>1535202574353</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="move filter vasualization">
+      <created>1535203141596</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1535203141596</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TodoView">
@@ -672,14 +686,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="117" y="206" width="394" height="685" id="Project" order="0" visible="true" weight="0.16830601" />
+      <window_info content_ui="combo" x="117" y="206" width="394" height="685" id="Project" order="0" visible="true" weight="0.16830601" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4985003" weight="0.32972974" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6431694" weight="0.38918918" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6431694" visible="true" weight="0.38918918" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.21256831" side_tool="true" weight="0.44648647" />
@@ -688,7 +701,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49605343" weight="0.32864866" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.21202186" side_tool="true" weight="0.5026969" />
       <window_info anchor="bottom" id="Messages" order="10" />
-      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.7874317" visible="true" weight="0.43243244" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="11" sideWeight="0.7874317" visible="true" weight="0.4908108" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -737,7 +750,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="keras for mnist" />
     <MESSAGE value="cnn code" />
     <MESSAGE value="cnn and dropout" />
     <MESSAGE value="cnn 99.1" />
@@ -762,7 +774,8 @@
     <MESSAGE value="improve cnn model" />
     <MESSAGE value="batch norm" />
     <MESSAGE value="filter vasualization" />
-    <option name="LAST_COMMIT_MESSAGE" value="filter vasualization" />
+    <MESSAGE value="move filter vasualization" />
+    <option name="LAST_COMMIT_MESSAGE" value="move filter vasualization" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -821,13 +834,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/matplotlib_t/example/event_handling/trifinder_event_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/matplotlib_t/example/event_handling/poly_editor.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1056,9 +1062,12 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hw3/models/stitched_filters_8x8.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/keras_t/k032_cnn_visualizing_filter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
+        <state relative-caret-position="429">
           <caret line="50" selection-start-line="50" selection-end-line="50" />
           <folding>
             <element signature="e#110#140#0" expanded="true" />
@@ -1089,9 +1098,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hw3/models/filter_vasualization.py">
+    <entry file="file://$PROJECT_DIR$/hw3/face_recognition.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-759">
+        <state relative-caret-position="1056">
+          <caret line="55" column="15" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_t/tf010.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2530">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="3322">
+            <caret line="151" column="3" selection-start-line="151" selection-start-column="3" selection-end-line="151" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw3/filter_vasualization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1760">
           <caret line="86" column="25" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="25" />
           <folding>
             <element signature="e#175#212#0" expanded="true" />
@@ -1099,34 +1138,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw3/face_recognition.py">
+    <entry file="file://$PROJECT_DIR$/tensorflow_t/tf020_tensorflowboard.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="76" column="38" lean-forward="true" selection-start-line="74" selection-end-line="76" selection-end-column="38" />
+        <state relative-caret-position="-87">
+          <caret line="48" column="24" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="24" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#333#370#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw3/models/stitched_filters_8x8.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="69">
-            <caret line="136" selection-start-line="136" selection-end-line="136" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
