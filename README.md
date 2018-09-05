@@ -151,6 +151,10 @@ testing bad(overfitting):
 ####　6.5 training tips
 1. 
 
+## 7 RNN
+## 8 GANs
+## 9 Reinforce Learning
+
 
 
 
