@@ -152,7 +152,18 @@ testing bad(overfitting):
 1. 
 
 ## 7 RNN
+
 ## 8 GANs
+
+#### 8.1 basic idea
+寫作敵人唸作朋友
+##### 8.1.1 generator
+z->g(z)=x
+隨機一組參數 -> generator(nn) -> image
+##### 8.1.2 discriminator
+x->d(x)=s 
+圖片 —> discriminator(nn) -> 純量(分數)
+
 ## 9 Reinforce Learning
 
 
